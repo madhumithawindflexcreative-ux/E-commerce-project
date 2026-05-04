@@ -1,0 +1,10 @@
+.brand-banner{
+padding:10px 0;
+}
+
+.banner-img{
+width:100%;
+
+border-radius:20px;
+object-fit:cover;
+}

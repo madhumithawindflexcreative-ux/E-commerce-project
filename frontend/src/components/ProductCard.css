@@ -1,0 +1,31 @@
+/* Card hover effect */
+.card{
+  transition:all 0.3s ease;
+}
+
+.card:hover{
+  transform:translateY(-6px);
+  box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* Product image */
+.card-img-top{
+  height:200px;
+  object-fit:contain;
+  transition:transform 0.3s ease;
+}
+
+.card:hover .card-img-top{
+  transform:scale(1.05);
+}
+
+/* Rating stars */
+.rating{
+  color:#fbc02d;
+}
+
+/* Discount styling */
+.discount{
+  color:#388e3c;
+  font-weight:500;
+}

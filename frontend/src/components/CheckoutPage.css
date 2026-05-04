@@ -1,0 +1,358 @@
+/* MAIN LAYOUT */
+
+.checkout-layout{
+display:flex;
+gap:30px;
+align-items:flex-start;
+}
+
+
+/* LEFT SECTION */
+
+.checkout-left{
+flex:2;
+background:#fff;
+padding:25px;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,0.08);
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+
+/* ADDRESS GRID */
+
+.checkout-left input{
+width:100%;
+padding:12px;
+border:1px solid #ddd;
+border-radius:6px;
+font-size:14px;
+transition:0.2s;
+}
+
+.checkout-left input:focus{
+outline:none;
+border-color:#2874f0;
+box-shadow:0 0 4px rgba(40,116,240,0.3);
+}
+
+
+/* PAYMENT */
+
+.checkout-left label{
+margin-right:20px;
+font-size:14px;
+cursor:pointer;
+}
+
+
+/* RIGHT SUMMARY CARD */
+
+.checkout-right{
+flex:1;
+background:#fff;
+padding:25px;
+border-radius:10px;
+box-shadow:0 2px 10px rgba(0,0,0,0.08);
+position:sticky;
+top:100px;
+}
+
+
+/* PRODUCT SUMMARY */
+
+.summary-item{
+display:flex;
+align-items:center;
+gap:15px;
+margin-bottom:15px;
+border-bottom:1px solid #eee;
+padding-bottom:10px;
+}
+
+.summary-item img{
+width:60px;
+height:60px;
+object-fit:contain;
+background:#f5f5f5;
+padding:5px;
+border-radius:6px;
+}
+
+
+/* TOTAL */
+
+.checkout-right h5{
+margin-top:15px;
+font-size:18px;
+font-weight:600;
+}
+
+
+/* PLACE ORDER BUTTON */
+
+.place-order{
+width:100%;
+background:#fb641b;
+color:white;
+border:none;
+padding:14px;
+font-size:16px;
+font-weight:bold;
+border-radius:6px;
+margin-top:15px;
+cursor:pointer;
+transition:0.3s;
+}
+
+.place-order:hover{
+background:#e5530f;
+}
+
+/* PAYMENT SECTION */
+
+.payment-options{
+display:flex;
+flex-direction:column;
+gap:12px;
+margin-top:10px;
+}
+
+.payment-option{
+display:flex;
+align-items:center;
+gap:10px;
+padding:10px 14px;
+border:1px solid #ddd;
+border-radius:6px;
+cursor:pointer;
+transition:0.2s;
+}
+
+.payment-option:hover{
+border-color:#2874f0;
+background:#f5f9ff;
+}
+
+.payment-option input{
+cursor:pointer;
+}
+
+/* PAYMENT METHODS */
+
+.payment-methods{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:15px;
+margin-top:10px;
+}
+
+.payment-card{
+padding:14px;
+border:1px solid #ddd;
+border-radius:8px;
+cursor:pointer;
+font-weight:500;
+background:#fff;
+transition:0.25s;
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.payment-card:hover{
+border-color:#2874f0;
+background:#f5f9ff;
+transform:translateY(-2px);
+box-shadow:0 3px 8px rgba(0,0,0,0.08);
+}
+
+.price-details{
+margin-top:10px;
+}
+
+.price-row{
+display:flex;
+justify-content:space-between;
+margin-bottom:8px;
+font-size:14px;
+}
+
+.price-row.total{
+font-weight:600;
+font-size:16px;
+}
+
+.free{
+color:green;
+font-weight:500;
+}
+
+.coupon-input{
+width:100%;
+padding:10px;
+border:1px solid #ddd;
+border-radius:6px;
+margin-top:15px;
+}
+
+
+.delivery-box{
+border:1px solid #ddd;
+padding:12px;
+border-radius:6px;
+margin-bottom:10px;
+cursor:pointer;
+transition:0.2s;
+}
+
+.delivery-box:hover{
+border-color:#2874f0;
+background:#f5f9ff;
+}
+
+.payment-methods{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:12px;
+margin-top:10px;
+}
+
+.payment-card{
+border:1px solid #ddd;
+padding:12px;
+border-radius:6px;
+cursor:pointer;
+transition:0.2s;
+}
+
+.payment-card:hover{
+border-color:#2874f0;
+background:#f5f9ff;
+}
+
+.price-row{
+display:flex;
+justify-content:space-between;
+margin:8px 0;
+}
+
+.price-row.total{
+font-weight:bold;
+font-size:17px;
+}
+
+.free{
+color:green;
+}
+
+.coupon-input{
+width:100%;
+padding:10px;
+border:1px solid #ddd;
+border-radius:6px;
+margin-top:12px;
+}
+
+
+
+.delivery-card{
+border:1px solid #ddd;
+padding:14px;
+border-radius:8px;
+margin-bottom:10px;
+cursor:pointer;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:white;
+transition:0.2s;
+}
+
+.delivery-card:hover{
+border-color:#2874f0;
+}
+
+.delivery-card.active{
+border:2px solid #2874f0;
+background:#f0f7ff;
+}
+
+.free{
+color:green;
+font-weight:600;
+}
+
+
+
+.payment-box{
+border:1px solid #ddd;
+padding:14px;
+border-radius:8px;
+margin-bottom:10px;
+cursor:pointer;
+background:white;
+transition:0.2s;
+}
+
+.payment-box:hover{
+border-color:#2874f0;
+}
+
+.payment-box.active{
+border:2px solid #2874f0;
+background:#f0f7ff;
+}
+
+
+
+
+
+
+.qty-box{
+display:flex;
+gap:10px;
+align-items:center;
+margin-top:6px;
+}
+
+.qty-box button{
+width:28px;
+height:28px;
+border:1px solid #ccc;
+background:white;
+cursor:pointer;
+}
+
+.remove-btn{
+background:none;
+border:none;
+color:#ff3f6c;
+cursor:pointer;
+font-size:13px;
+margin-top:5px;
+}
+
+.coupon-box{
+display:flex;
+gap:10px;
+margin-top:10px;
+}
+
+.coupon-box input{
+flex:1;
+padding:10px;
+border:1px solid #ddd;
+border-radius:6px;
+}
+
+.coupon-box button{
+background:#2874f0;
+color:white;
+border:none;
+padding:10px 16px;
+border-radius:6px;
+cursor:pointer;
+}

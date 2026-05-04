@@ -1,0 +1,31 @@
+.product-page-layout{
+display:flex;
+gap:20px;
+}
+
+.product-sidebar{
+width:250px;
+background:white;
+border:1px solid #ddd;
+padding:15px;
+}
+
+.filter-title{
+font-weight:600;
+margin-bottom:15px;
+}
+
+.filter-block{
+margin-bottom:20px;
+}
+
+.filter-block h6{
+font-size:14px;
+margin-bottom:10px;
+}
+
+.filter-block label{
+display:block;
+margin-bottom:6px;
+font-size:14px;
+}
