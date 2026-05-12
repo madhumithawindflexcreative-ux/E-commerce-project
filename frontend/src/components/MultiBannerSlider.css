@@ -1,0 +1,40 @@
+.multi-slider-container{
+  overflow:hidden;
+  margin-top:20px;
+  position:relative;
+}
+
+.multi-slider-track{
+  display:flex;
+  gap:20px;
+}
+
+.slider-card{
+  width:33.33%;
+  height:200px;
+  object-fit:cover;
+  border-radius:14px;
+  flex-shrink:0;
+}
+
+/* DOTS */
+
+.slider-dots{
+  display:flex;
+  justify-content:center;
+  gap:6px;
+  margin-top:10px;
+}
+
+.dot{
+  width:8px;
+  height:8px;
+  background:#ccc;
+  border-radius:50%;
+}
+
+.dot.active{
+  background:#333;
+  width:18px;
+  border-radius:10px;
+}

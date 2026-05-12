@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+/* Page background like Flipkart */
+body {
+  background-color: #f1f3f6;
+}
+
+/* Product card spacing */
+.card {
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+/* Cart Section */
+.cart-section{
+  margin-top:40px;
+}
+
+/* Cart Item */
+.cart-item{
+  background:white;
+  border-radius:6px;
+}
+
+/* Search box */
+.search-box{
+  width:400px;
+  padding:10px;
+  border:1px solid #ccc;
+  border-radius:5px;
+  font-size:16px;
+}
+
+/* Banner spacing */
+.banner img{
+  width:100%;
+  height:300px;
+  object-fit:cover;
+}
+
+/* Product image inside card */
+.card-img-top{
+  height:200px;
+  object-fit:contain;
+}
